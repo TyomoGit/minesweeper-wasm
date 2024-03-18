@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif;
+}
+table {
+    width: max-content;
+    height: max-content;
+}
+td {
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td.opened {
+    background-color: white;
+}
+
+td.zero {
+    color: gray;
+}
+
+small {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
